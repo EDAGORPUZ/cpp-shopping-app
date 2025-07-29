@@ -1,2 +1,23 @@
-# cpp-shopping-app
- This project is a console-based shopping and company information system developed using fundamental C++ structures. The program provides an interactive menu to the user by processing product and employee data defined using struct structures. Users can review products, add them to the cart, view the total amount, and complete the transaction with installment payment options. Additionally, detailed information about company employees can be listed. Within the scope of the project, core C++ programming concepts such as decision structures (switch-case), loops, arrays, input/output operations, and the use of locale are effectively applied. The application serves as an instructive example for beginner-level developers to practice menu-based application development and data processing.
+# Console Tabanlı Alışveriş Uygulaması (C++)
+
+Bu proje, C++ dili kullanılarak geliştirilen basit bir terminal/console tabanlı alışveriş ve firma tanıtım sistemidir. Kullanıcılar ürün inceleyebilir, sepet oluşturabilir, taksitli alışveriş yapabilir ve firma çalışanları hakkında bilgi alabilir.
+
+## ✨ Özellikler
+
+- Firma hakkında bilgi (çalışan bilgileri)
+- Ürün inceleme ve sepete ekleme
+- Sepeti görüntüleme ve toplam tutar hesaplama
+- Taksitli ödeme seçeneği
+- Fatura çıktısı (yazdırma kısmı tasarlanabilir)
+- Türkçe dil desteği (setlocale ile)
+
+## 📁 Dosyalar
+
+- `main.cpp` — Tüm programı içeren ana kaynak dosyası
+
+## 🚀 Nasıl Çalıştırılır?
+
+1. Herhangi bir C++ derleyicisi ile projeyi derleyin:
+
+   ```bash
+   g++ -std=c++11 main.cpp -o alisveris
